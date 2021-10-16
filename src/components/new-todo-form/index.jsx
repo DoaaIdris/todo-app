@@ -40,10 +40,6 @@ export const NewTodoForm = () => {
                 validationSchema={
                     {
                         required: "Todo deadline is required",
-                        minLength: {
-                            value: 3,
-                            message: "Please enter at least 3 characters"
-                        }
                     }
                 }
                 required
